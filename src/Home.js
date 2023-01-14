@@ -9,12 +9,21 @@ const Home = () => {
           backgroundSize: "130%",
           backgroundRepeat: "no-repeat",
         }}
-        
       >
-        <h1>Event Mangement</h1>
-        <a href="/">login</a>
-        <a href="/">Signup</a>
-        <a href="/">about us</a>
+        <h1>Welcome To</h1>
+        <h2>Event Mangement</h2>
+        <div className="loginSign">
+            
+                <a href="/">login</a>
+    &nbsp;&nbsp;&nbsp;&nbsp;
+            
+                <a href="/">Signup</a>
+            
+        </div>
+        <div className="about">
+          <a href="/">about us</a>
+          
+        </div>
       </div>
     </div>
   );
