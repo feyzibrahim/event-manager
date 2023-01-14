@@ -6,20 +6,20 @@
   color: #333;
 }
 
-h1{
+.Home h1{
   text-align: center;
   font-size: 70px;
   font-style:oblique;
   padding-top: 150px;
 }
 
-h2{
+.Home h2{
   text-align: center;
   font-size: 50px;
   font-style:oblique;
-  
 }
- .homeDiv {
+
+.homeDiv {
   margin: 0;
   width: 100%;
   height: 100vh;
@@ -50,6 +50,10 @@ h2{
 }
 
 /* EventsList */
+
+.event-list {
+  text-align: left;
+}
 
 .event-preview {
   padding: 10px 16px;
@@ -86,7 +90,7 @@ h2{
   background-color: aliceblue;
 }
 
- .loginSign {
+.loginSign {
   text-align: center;
   width: 100%;
   float: left;
