@@ -8,13 +8,22 @@
 
 h1{
   text-align: center;
+  font-size: 70px;
+  font-style:oblique;
+  padding-top: 150px;
 }
 
-.homeDiv {
+h2{
+  text-align: center;
+  font-size: 50px;
+  font-style:oblique;
+  
+}
+ .homeDiv {
   margin: 0;
   width: 100%;
   height: 100vh;
-
+}
 
 /* Navbar */
 
@@ -64,3 +73,27 @@ h1{
   margin: 10%;
 }
 
+.about{
+  padding-left: 95vw;
+  padding-top: 260px;
+  border-radius: 50%;
+  font-size: large;
+  
+}
+
+.about a{
+  text-decoration: none;
+  background-color: aliceblue;
+}
+
+ .loginSign {
+  text-align: center;
+  width: 100%;
+  float: left;
+} 
+
+.login{
+  text-align: center;
+  padding-left: 10vw;
+  
+}
