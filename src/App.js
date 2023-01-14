@@ -1,3 +1,4 @@
+import Login from "./Login";
 import Home from "./Home";
 import Dashboard from "./Dashboard";
 import Navbar from "./Navbar";
@@ -12,8 +13,8 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/home" element={<Home />} />
-            {/* <Route path="/login" element={<LoginPage />} />
-            <Route path="/about" element={<AboutPage />} />
+             <Route path="/login" element={<Login />} />
+           {/* <Route path="/about" element={<AboutPage />} />
             <Route path="/signup" element={<SignUp />} /> */}
           </Routes>
         </div>
