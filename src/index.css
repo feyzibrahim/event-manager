@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
+  font-family: "Quicksand";
+  color: #333;
 }
 
 h1{
@@ -10,4 +14,53 @@ h1{
   margin: 0;
   width: 100%;
   height: 100vh;
+
+
+/* Navbar */
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #F2F2F2;
 }
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 10px 15px;
+}
+
+.navbar a:hover {
+  color: #f1356d;
+}
+
+/* EventsList */
+
+.event-preview {
+  padding: 10px 16px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.event-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.event-preview h2 { 
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+/* Dashboard */
+
+.dashHome {
+  margin: 10%;
+}
+

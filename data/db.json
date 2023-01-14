@@ -1,0 +1,16 @@
+{
+    "events": [
+        {
+            "id": 1,
+            "title": "My first Event",
+            "author": "Feyze",
+            "body": "Minim deserunt aute magna in deserunt laboris ea aute. Sunt aliqua cupidatat proident consectetur eiusmod ad commodo. Consectetur deserunt quis tempor amet officia tempor elit dolore in est ad exercitation id."
+        },
+        {
+            "id": 2,
+            "title": " FIrst Event",
+            "author": "Someone",
+            "body": "Minim deserunt aute magna in deserunt laboris ea aute. Sunt aliqua cupidatat proident consectetur eiusmod ad commodo. Consectetur deserunt quis tempor amet officia tempor elit dolore in est ad exercitation id."
+        }
+    ]
+}
