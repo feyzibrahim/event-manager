@@ -1,16 +1,40 @@
 {
-    "events": [
-        {
-            "id": 1,
-            "title": "My first Event",
-            "author": "Feyze",
-            "body": "Minim deserunt aute magna in deserunt laboris ea aute. Sunt aliqua cupidatat proident consectetur eiusmod ad commodo. Consectetur deserunt quis tempor amet officia tempor elit dolore in est ad exercitation id."
-        },
-        {
-            "id": 2,
-            "title": " FIrst Event",
-            "author": "Someone",
-            "body": "Minim deserunt aute magna in deserunt laboris ea aute. Sunt aliqua cupidatat proident consectetur eiusmod ad commodo. Consectetur deserunt quis tempor amet officia tempor elit dolore in est ad exercitation id."
-        }
-    ]
+  "events": [
+    {
+      "id": 1,
+      "title": "My first Event",
+      "author": "Feyze",
+      "body": "Minim deserunt aute magna in deserunt laboris ea aute. Sunt aliqua cupidatat proident consectetur eiusmod ad commodo. Consectetur deserunt quis tempor amet officia tempor elit dolore in est ad exercitation id."
+    },
+    {
+      "id": 2,
+      "title": " FIrst Event",
+      "author": "Someone",
+      "body": "Minim deserunt aute magna in deserunt laboris ea aute. Sunt aliqua cupidatat proident consectetur eiusmod ad commodo. Consectetur deserunt quis tempor amet officia tempor elit dolore in est ad exercitation id."
+    },
+    {
+      "title": "Text Data",
+      "body": "Some body here to be added in the  db",
+      "author": "Faiz",
+      "id": 3
+    },
+    {
+      "title": "Hello World",
+      "body": "Some body text here",
+      "author": "Faiz",
+      "id": 4
+    },
+    {
+      "title": "Abc",
+      "body": "Text Event",
+      "author": "Faiz",
+      "id": 5
+    },
+    {
+      "title": "New Titile",
+      "body": "New Body",
+      "author": "Faiz",
+      "id": 6
+    }
+  ]
 }

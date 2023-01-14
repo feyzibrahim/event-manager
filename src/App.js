@@ -3,6 +3,8 @@ import Home from "./Home";
 import Dashboard from "./Dashboard";
 import Navbar from "./Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import EventDetails from "./EventDetails";
+import Create from "./Create";
 
 function App() {
   return (
@@ -13,8 +15,10 @@ function App() {
           <Routes>
             <Route path="/" element={<Dashboard />} />
             <Route path="/home" element={<Home />} />
-             <Route path="/login" element={<Login />} />
-           {/* <Route path="/about" element={<AboutPage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/create" element={<Create />} />
+            <Route path="/events/:id" element={<EventDetails />} />
+            {/* <Route path="/about" element={<AboutPage />} />
             <Route path="/signup" element={<SignUp />} /> */}
           </Routes>
         </div>

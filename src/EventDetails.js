@@ -10,13 +10,13 @@ const EventDetails = () => {
   } = useFetch("http://localhost:8000/events/" + id);
 
   return (
-    <div className="dashHome">
+    <div className="eventDetails">
       {error && <div>{error}</div>}
       {isPending && <div className="loading">Loading....</div>}
       {events && (
         <article>
           <h2>{events.title}</h2>
-          <p>Created by {events.auther}</p>
+          <p>Created by {events.author}</p>
           <div>{events.body}</div>
         </article>
       )}
