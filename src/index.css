@@ -6,6 +6,8 @@
   color: #333;
 }
 
+/* Navbar */
+
 .navbar {
   padding: 20px;
   display: flex;
@@ -27,3 +29,30 @@
 .navbar a:hover {
   color: #f1356d;
 }
+
+/* EventsList */
+
+.event-preview {
+  padding: 10px 16px;
+  margin: 20px 0px;
+  border-bottom: 1px solid #fafafa;
+}
+
+.event-preview:hover {
+  box-shadow: 1px 3px 5px rgba(0,0,0,0.1);
+}
+
+.event-preview h2 { 
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+}
+
+
+
+/* Dashboard */
+
+.dashHome {
+  margin: 10%;
+}
+

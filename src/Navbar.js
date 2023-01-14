@@ -8,12 +8,8 @@ const Navbar = () => {
         <a href="/home">Home</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
-        <a href="/signup" className="fullColeredButton">
-          Sign Up
-        </a>
-        <a href="/login" className="borderColoredButton">
-          Log In
-        </a>
+        <a href="/signup">Sign Up</a>
+        <a href="/login">Log In</a>
       </div>
     </nav>
   );
