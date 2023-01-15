@@ -1,4 +1,4 @@
-import bazi from "./images/img3.jpg";
+import bazi from "./images/img2.jpg";
 const Aboutpage = () => {
     return ( 
         <div
