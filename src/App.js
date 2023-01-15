@@ -5,6 +5,7 @@ import Navbar from "./Navbar";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import EventDetails from "./EventDetails";
 import Create from "./Create";
+import Contact from "./Contact";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route path="/login" element={<Login />} />
             <Route path="/create" element={<Create />} />
             <Route path="/events/:id" element={<EventDetails />} />
+            <Route path="/contact" element={<Contact />} />
             {/* <Route path="/about" element={<AboutPage />} />
             <Route path="/signup" element={<SignUp />} /> */}
           </Routes>

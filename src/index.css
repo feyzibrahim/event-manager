@@ -94,10 +94,11 @@ form {
   display: flex;
   flex-direction: column;
   justify-content:center;
-  margin: 10 auto;
-  max-width: 500px;
+  margin: 5 auto;
+  max-width: 200px;
   padding: 10px ;
   align-items: center;
+  
 
   
 }
@@ -144,9 +145,12 @@ button {
 }
 
 .cent{
-  width: 50%;
-  margin-left: 25%;
-}
+  padding-top: 5vw;
+ width: 50%;
+ margin-left: 40%;
+border-radius:100px;}
+
+/*about */
 
 .about{
   padding-left: 95vw;
@@ -226,4 +230,19 @@ button {
   padding: 8px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+/* contact */
+
+
+.contact1{
+  width: 100%;
+  height: 100vh;
+
+}
+.cent1{
+ width: 70%;
+margin-left: 25%;
+
+padding-right: 7vw;
 }
