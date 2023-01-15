@@ -1,4 +1,4 @@
-import React from "react";
+import { Link } from "react-router-dom";
 
 const EventsList = ({ events, title }) => {
   return (
@@ -6,8 +6,10 @@ const EventsList = ({ events, title }) => {
       <h2>{title}</h2>
       {events.map((event) => (
         <div className="event-preview" key={event.id}>
-          <h2>{event.title}</h2>
-          <p>Created by {event.author}</p>
+          <Link to={`/events/${event.id}`}>
+            <h2>{event.title}</h2>
+            <p>Created by {event.author}</p>
+          </Link>
         </div>
       ))}
     </div>
