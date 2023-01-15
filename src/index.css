@@ -77,7 +77,7 @@
   margin: 10%;
 }
 
-h1 {
+.cent h1 {
   border-bottom: 1px solid white;
   color: #3d3d3d;
   font-family: sans-serif;
@@ -88,8 +88,8 @@ h1 {
   text-align: center;
 }
 
-form {
-  background: white;
+.cent form {
+  background: rgba(255, 255, 255, 0.55);
   border: 0px solid #dedede;
   display: flex;
   flex-direction: column;
@@ -98,12 +98,12 @@ form {
   max-width: 200px;
   padding: 10px ;
   align-items: center;
-  
+  border-radius: 20px;
 
   
 }
 
-input {
+.cent input {
   border: 1px solid #d9d9d9;
   border-radius: 4px;
   box-sizing: border-box;
@@ -112,7 +112,7 @@ input {
   justify-content:center;
 }
 
-label {
+.cent label {
   color: #3d3d3d;
   display: block;
   font-family: sans-serif;
@@ -132,7 +132,7 @@ label {
   height: 30px;
 }
 
-button {
+.cent button {
   background-color: #6976d9;
   color: #fff;
   font-family: sans-serif;
@@ -148,20 +148,27 @@ button {
   padding-top: 5vw;
  width: 50%;
  margin-left: 40%;
-border-radius:100px;}
+border-radius:100px;
+}
 
 /*about */
 
 .about{
-  padding-left: 95vw;
-  padding-top: 260px;
+  height: 200px;
+  width: 100%;
+  padding: 0;
+  /* padding-right: 50px; */
+  text-align: right;
   border-radius: 50%;
   font-size: large;
 }
 
+
 .about a {
   text-decoration: none;
   background-color: aliceblue;
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .loginSign {
@@ -245,4 +252,24 @@ border-radius:100px;}
 margin-left: 25%;
 
 padding-right: 7vw;
+}
+.about1{
+  height: 120vh;
+  
+
+}
+.about3{
+  text-align: center;
+  text-align: justify;
+  color: rgb(62, 12, 65);
+  margin-left: 25%;
+  margin-right: 25%;
+  background-color: #ffffff70;
+  padding: 50px;
+  border-radius: 30px;
+}
+.about2{
+  padding-top: 10vw;
+  text-align: center;
+  font-size: 50px;
 }

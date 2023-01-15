@@ -19,7 +19,6 @@ const Aboutpage = () => {
                 Thank you for choosing us through this website and we are looking for support ad care for further.             
             
             </div>
-            <div>Hello WOorld</div>
         </div>
       </div>
      );

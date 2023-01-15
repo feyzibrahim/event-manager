@@ -7,6 +7,7 @@ import EventDetails from "./EventDetails";
 import Create from "./Create";
 import Contact from "./Contact";
 import Aboutpage from "./Aboutpage";
+import SignUp from "./SignUp";
 
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             <Route path="/events/:id" element={<EventDetails />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/about" element={<Aboutpage />} />
-            {/* <Route path="/signup" element={<SignUp />} /> */}
+            <Route path="/signup" element={<SignUp />} />
           </Routes>
         </div>
       </Router>
